@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Khan </title>
+    <link rel="stylesheet" href="contact.css" />
+
+</head>
+
+<body>
+    <header class="h1">
+        <h1>Welcome all for beautiful smiles all along</h1>
+        <p>Your smile enlightens the day</p>
+        <video autoplay muted loop id="vid" />
+
+        <source src="clinic.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <p>We value your smile<br>Khan dentist clinic was established in 1999 to serve the community <br>seeing your smile makes us happy </p>
+            <button id="btn" onclick="myFunction()">pause</button>
+        </div>
+        <script>
+            var video = document.getElementById("vid");
+            var button = getElementById("btn");
+
+            function myFunction() {
+                if (video.paused) {
+                    video.play();
+                    button.innerHTML = "pause";;
+
+                } else {
+                    video.pause();
+                    button.innerHTML = "play";
+                }
+
+            }
+        </script>
+    </header>
+
+    <div class="nav">
+        <ul>
+            <li><a class="active" href="contact.html"><b>Home</b></a></li>
+            <li><a href="book.html"><b>Contact</b></a></li>
+            <li><a href="services.html"><b> Our Services</b></a></li>
+            <li><a href="try_this.htm"><b>Login</b></a></li>
+
+
+        </ul>
+    </div>
+    <footer class="footer">
+
+        <h3>Khan home</h3>
+        <p>A beutiful home is full of smiles</p>
+        <ul class="socials">
+            <!---- 
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>-->
+            <li>
+                <a href="#"><img src="fb.jpeg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="iig.jpeg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="twitter.png"></a>
+            </li>
+        </ul>
+
+    </footer>
+
+
+</body>
+
+</html>

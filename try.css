@@ -1,0 +1,111 @@
+                    @media screen and(max-height:450px) {}
+                    
+                    body {
+                        background-image: url(logg.jpg);
+                        text-align: center;
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: medium;
+                        color: rgb(236, 135, 19);
+                    }
+                    
+                    #password {
+                        padding-top: 16 px;
+                    }
+                    
+                    input[type=text],
+                    input[type=password] {
+                        width: 35%;
+                        padding: 12px 20px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid black;
+                        box-sizing: border-box;
+                    }
+                    
+                    button {
+                        color: rgb(154, 11, 236);
+                        padding: 12px;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        background: rgb(81, 211, 6);
+                        cursor: pointer;
+                    }
+                    
+                    button:hover {
+                        opacity: 0.8;
+                        color: rgb(12, 10, 10);
+                    }
+                    
+                    form {
+                        border: 0.5px solid blue;
+                    }
+                    
+                    #label {
+                        padding: 12px;
+                        border: 1px black;
+                        border-radius: 2px;
+                    }
+                    
+                    footer {
+                        background: gray;
+                        color: rgb(189, 228, 15);
+                        position: relative;
+                        margin: 4px;
+                        padding: 20px;
+                    }
+                    
+                    .imagecontainer {
+                        text-align: center
+                    }
+                    
+                    image.avatar {
+                        width: 30%;
+                        border-radius: 30px;
+                        height: 50px;
+                    }
+                    
+                    .container {
+                        padding: 5px;
+                    }
+                    
+                    .nav {
+                        display: block;
+                        text-decoration: underline;
+                        width: 100%;
+                        top: 0px;
+                        right: 0px;
+                        position: fixed;
+                        background: linear-gradient(10deg, blue, purple);
+                    }
+                    
+                    .nav ul {
+                        margin: 10px;
+                        padding: 10px;
+                        list-style-type: none;
+                        float: right;
+                    }
+                    
+                    .nav ul li {
+                        float: right;
+                        text-align: center;
+                        border-left: 1px solid blue;
+                    }
+                    
+                    .nav li:last-child {
+                        border: none;
+                    }
+                    
+                    .nav ul li a {
+                        padding: 10px;
+                        background: rgb(248, 207, 22);
+                    }
+                    
+                    .nav ul li a :hover {
+                        background: greenyellow;
+                        color: solid black;
+                    }
+                    
+                    .nav .active {
+                        background: greenyellow;
+                        color: solid black;
+                    }
